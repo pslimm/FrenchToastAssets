@@ -1,0 +1,14 @@
+class Fraction
+{
+  private:
+  int numerator;
+  int denominator;
+
+  public: 
+  Fraction operator+(Fraction, Fraction);
+  Fraction operator*(Fraction, Fraction);
+  bool operator<(Fraction, Fraction);
+  bool operator==(Fraction, Fraction);
+  ostream& operator<<(ostream&, Fraction);
+  Fraction (int n, int d) {numerator = n; denominator = d;}
+};

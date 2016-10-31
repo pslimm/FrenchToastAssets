@@ -1,0 +1,20 @@
+Fraction Fraction::operator+(Fraction a, Fraction b)
+{
+  Fraction c;
+  
+  // If denominators are equal
+  if (a.denominator == b.denominator)
+  {
+    c.numerator = a.numerator + b.numerator;
+    c.denominator = a.denominator;
+  }
+
+  // Otherwise, denominators are not equal
+  else
+  { 
+    c.numerator = (a.numerator * b.denominator) + (b.numerator * a.denominator);
+    c.denominator = a.denominator * b.denominator;
+  }
+
+  return c;
+}

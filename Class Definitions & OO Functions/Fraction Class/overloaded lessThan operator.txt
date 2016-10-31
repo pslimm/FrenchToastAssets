@@ -1,0 +1,25 @@
+bool Fraction::operator<(Fraction a, Fraction b)
+{
+  // Declare a boolean variable for comparison of fractions (initially false)
+  bool isLessThan = false;
+
+  /* Multiply the numerator and denominator of Fraction a by the denominator of
+     Fraction b */
+  a.numerator   *= b.denominator;
+  a.denominator *= b.denominator;
+
+  /* Multiply the numerator and denominator of Fraction b by the denominator of
+     Fraction a */
+  b.numerator   *= a.denominator;
+  b.denominator *= a.denominator;
+
+  /* Compare the numerators of a and b (now that they have the same denominator),
+     and set corresponding boolean variable appropriately */
+  if (a.numerator < b.numerator)
+  {
+    isLessThan = true;
+  }
+
+  return isLessThan;
+
+}

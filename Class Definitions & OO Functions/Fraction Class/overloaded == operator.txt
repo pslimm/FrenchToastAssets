@@ -1,0 +1,33 @@
+bool Fraction::operator==(Fraction a, Fraction b)
+{
+  // Declare a boolean variable for equality of numerators (initially false)
+  bool numeratorsEqual = false;
+
+  // Declare a boolean variable for equality of denominators (initially false)
+  bool denominatorsEqual = false;
+
+  // Declare a boolean variable for equality of fraction (initially false)
+  bool fractionsEqual = false;
+
+  /* Check to see if the numerators are equal, and set corresponding boolean
+     variable appropriately */
+  if (a.numerator == b.numerator)
+  {
+    numeratorsEqual = true;
+  }
+
+  /* Check to see if the denominators are equal, and set corresponding boolean
+     variable appropriately */
+  if (a.denominator == b.denominator)
+  {
+    denominatorsEqual = true;
+  }
+
+  // Check to see if the fraction is equal, based on the two boolean values
+  if (numeratorsEqual && denominatorsEqual)
+  {
+    fractionsEqual = true;
+  }
+
+  return fractionsEqual;
+}

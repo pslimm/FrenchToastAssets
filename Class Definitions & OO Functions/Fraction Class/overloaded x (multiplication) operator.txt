@@ -1,0 +1,10 @@
+Fraction Fraction::operator*(Fraction a, Fraction b)
+{
+  Fraction c; 
+
+  // Set the numerator and denominator of c
+  c.numerator = a.numerator * b.numerator;
+  c.denominator = a.denominator * b.denominator;
+
+  return c;
+}

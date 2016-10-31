@@ -1,0 +1,6 @@
+ostream& Fraction::operator<<(ostream& out, Fraction a)
+{
+  /* return a print statement using 'out' that shows a fraction in the form:
+     numerator/denominator */
+  return out << a.numerator << '/' << a.denominator;
+}
