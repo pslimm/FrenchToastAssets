@@ -12,4 +12,9 @@ public class PuzzleScript : MonoBehaviour {
 	void Update () {
 	
 	}
+
+    // On click, move the puzzle piece onto the board. For testing, make the text appear in the center of the screen.
+    void onClick() {
+
+    }
 }
