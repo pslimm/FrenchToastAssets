@@ -18,7 +18,11 @@ public class TitleScreen : MonoBehaviour
 
     public void loadGame()
     {
-        Debug.Log("Clicked!");
 		SceneManager.LoadScene("2. Background & Instructions (How To Play)");   
     }
+
+	public void loadTutorial()
+	{
+		SceneManager.LoadScene("3. Tutorial");
+	}
 }
