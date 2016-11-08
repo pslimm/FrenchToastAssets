@@ -34,6 +34,8 @@ public class PuzzlePieceDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 	public void OnEndDrag(PointerEventData eventData)
 	{
 		itemBeingDragged = null;
+		transform.position = startPosition;
+
 		GetComponent<CanvasGroup>().blocksRaycasts = true;
 
 		if (transform.parent != startParent)
