@@ -5,7 +5,7 @@ public class MegamanController : MonoBehaviour
 {
 	public float maxSpeed = 30f;
 	bool facingRight = true;
-	Animator animatePlayer;
+	public Animator animatePlayer;
 
 	bool onGround = false;
 	public Transform checkForGround;
@@ -39,6 +39,7 @@ public class MegamanController : MonoBehaviour
 		{
 			Flip ();
 		}
+
 	}
 
 	void Update()
