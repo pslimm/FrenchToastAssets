@@ -11,7 +11,7 @@ public class MegamanController : MonoBehaviour
 	public Transform checkForGround;
 	float groundRadius = 0.2f;
 	public LayerMask whatIsGround; //tell character what is considered "ground"
-	public float jumpForce = 700f;
+	public float jumpForce = 700.0f;
 	// Use this for initialization
 	void Start () 
 	{

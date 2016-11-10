@@ -22,14 +22,15 @@ public class CodeCanvasTrigger : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D osvaldo) {
 		if (osvaldo.gameObject.tag == "Player") {
-			osvaldo.gameObject.GetComponent<MegamanController>().maxSpeed = 0;
-			osvaldo.gameObject.SetActive(false);
+			osvaldo.gameObject.GetComponent<MegamanController>().jumpForce = 0.0f;
+			Time.timeScale = 0.0f;
 			codeCanvas.SetActive (true);
 		}
 	}
 
 	public void onCheckClick() {
 		codeCanvas.SetActive (false);
-		GameObject.FindWithTag("Player").SetActive(true);
+		Time.timeScale = 1.0f;
+		GameObject.FindWithTag("Player").GetComponent<MegamanController>().jumpForce = 700.0f;
 	}
 }
