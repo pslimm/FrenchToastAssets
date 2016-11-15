@@ -1,0 +1,942 @@
+fileFormatVersion: 2
+guid: 701f93cae749c1f4fa31870a3b784867
+timeCreated: 1479228946
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: osvaldo_sprite_sheet_0
+    21300002: osvaldo_sprite_sheet_1
+    21300004: osvaldo_sprite_sheet_2
+    21300006: osvaldo_sprite_sheet_3
+    21300008: osvaldo_sprite_sheet_4
+    21300010: osvaldo_sprite_sheet_5
+    21300012: osvaldo_sprite_sheet_6
+    21300014: osvaldo_sprite_sheet_7
+    21300016: osvaldo_sprite_sheet_8
+    21300018: osvaldo_sprite_sheet_9
+    21300020: osvaldo_sprite_sheet_10
+    21300022: osvaldo_sprite_sheet_11
+    21300024: osvaldo_sprite_sheet_12
+    21300026: osvaldo_sprite_sheet_13
+    21300028: osvaldo_sprite_sheet_14
+    21300030: osvaldo_sprite_sheet_15
+    21300032: osvaldo_sprite_sheet_16
+    21300034: osvaldo_sprite_sheet_17
+    21300036: osvaldo_sprite_sheet_18
+    21300038: osvaldo_sprite_sheet_19
+    21300040: osvaldo_sprite_sheet_20
+    21300042: osvaldo_sprite_sheet_21
+    21300044: osvaldo_sprite_sheet_22
+    21300046: osvaldo_sprite_sheet_23
+    21300048: osvaldo_sprite_sheet_24
+    21300050: osvaldo_sprite_sheet_25
+    21300052: osvaldo_sprite_sheet_26
+    21300054: osvaldo_sprite_sheet_27
+    21300056: osvaldo_sprite_sheet_28
+    21300058: osvaldo_sprite_sheet_29
+    21300060: osvaldo_sprite_sheet_30
+    21300062: osvaldo_sprite_sheet_31
+    21300064: osvaldo_sprite_sheet_32
+    21300066: osvaldo_sprite_sheet_33
+    21300068: osvaldo_sprite_sheet_34
+    21300070: osvaldo_sprite_sheet_35
+    21300072: osvaldo_sprite_sheet_36
+    21300074: osvaldo_sprite_sheet_37
+    21300076: osvaldo_sprite_sheet_38
+    21300078: osvaldo_sprite_sheet_39
+    21300080: osvaldo_sprite_sheet_40
+    21300082: osvaldo_sprite_sheet_41
+    21300084: osvaldo_sprite_sheet_42
+    21300086: osvaldo_sprite_sheet_43
+    21300088: osvaldo_sprite_sheet_44
+    21300090: osvaldo_sprite_sheet_45
+    21300092: osvaldo_sprite_sheet_46
+    21300094: osvaldo_sprite_sheet_47
+    21300096: osvaldo_sprite_sheet_48
+    21300098: osvaldo_sprite_sheet_49
+    21300100: osvaldo_sprite_sheet_50
+    21300102: osvaldo_sprite_sheet_51
+    21300104: osvaldo_sprite_sheet_52
+    21300106: osvaldo_sprite_sheet_53
+    21300108: osvaldo_sprite_sheet_54
+    21300110: osvaldo_sprite_sheet_55
+    21300112: osvaldo_sprite_sheet_56
+    21300114: osvaldo_sprite_sheet_57
+    21300116: osvaldo_sprite_sheet_58
+    21300118: osvaldo_sprite_sheet_59
+    21300120: osvaldo_sprite_sheet_60
+    21300122: osvaldo_sprite_sheet_61
+    21300124: osvaldo_sprite_sheet_62
+    21300126: osvaldo_sprite_sheet_63
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 313
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 313
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 313
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 313
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 313
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 313
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 307
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 313
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 315
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 309
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 259
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 263
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 263
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 263
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 263
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 263
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 257
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 213
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 213
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 213
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 213
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 213
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 213
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 207
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 213
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 215
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 163
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 163
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 163
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 164
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 163
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 163
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 157
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 163
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 165
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 158
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 113
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 113
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 113
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 106
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 107
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 123
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 112
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 63
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 63
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 63
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 63
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 63
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 63
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 63
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 63
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 63
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 63
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 13
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 13
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 13
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 13
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 13
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 13
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 13
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 13
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 13
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 13
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
