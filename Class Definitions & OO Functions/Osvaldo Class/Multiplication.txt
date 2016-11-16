@@ -1,0 +1,22 @@
+h_class Player
+h_{
+h_	private:
+h_		int jumpHeight;
+h_		int jumpDistance;
+h_	public:
+h_		Player(int jh=1, int jd=1){jumpHeight=jh; jumpDistance=jd;}
+h_		Player operator *(Player multiplier);
+h_}
+i_Player Player::operator *(Player multiplier) {
+p_	Player newStats;
+p_	newStats.jumpHeight = jumpHeight * multiplier.jumpHeight;
+p_	newStats.jumpDistance = jumpDistance * multiplier.jumpDistance;
+p_	return newStats;
+i_}
+c_Player newStats;a
+c_newStats.jumpHeight = jumpHeight * multiplier.jumpHeight;b
+c_newStats.jumpDistance = jumpDistance * multiplier.jumpDistance;b
+c_jumpDistance = newStats.jumpDistance * multiplier.jumpDistance;
+c_jumpHeight = newStats.jumpHeight * multiplier.jumpHeight
+c_
+c_return newStats;c

@@ -9,7 +9,7 @@ public class CodeCanvasTrigger : MonoBehaviour {
 	void Start () {
 		codeCanvas = GameObject.FindGameObjectWithTag ("CodeCanvas");
 		codeCanvas.SetActive (false);
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -32,5 +32,11 @@ public class CodeCanvasTrigger : MonoBehaviour {
 		codeCanvas.SetActive (false);
 		Time.timeScale = 1.0f;
 		GameObject.FindWithTag("Player").GetComponent<MegamanController>().jumpForce = 700.0f;
+
+      
+
+
+
+
 	}
 }

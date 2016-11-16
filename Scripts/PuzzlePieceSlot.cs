@@ -4,13 +4,15 @@ using UnityEngine.EventSystems;
 
 public class PuzzlePieceSlot : MonoBehaviour, IDropHandler 
 {
+    public string tag;
 	public GameObject item
 	{
 		get
 		{
-			if (transform.childCount > 0)
+			if (transform.childCount > 1)
 			{
-				return transform.GetChild(0).gameObject;
+                Debug.Log("Dropping");
+				return transform.GetChild(1).gameObject;
 			}
 
 			return null;
