@@ -1114,6 +1114,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 484274400}
   - 212: {fileID: 484274399}
+  - 61: {fileID: 484274401}
   m_Layer: 9
   m_Name: PlayerPlatform2
   m_TagString: Platform
@@ -1167,6 +1168,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2055189204}
   m_RootOrder: 2
+--- !u!61 &484274401
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 484274398}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0.48951745}
+  serializedVersion: 2
+  m_Size: {x: 10, y: 0.38990697}
 --- !u!1 &509972413
 GameObject:
   m_ObjectHideFlags: 0
@@ -2986,6 +3001,11 @@ Prefab:
         type: 2}
       propertyPath: jumpForce
       value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 50000011994729082, guid: f3b8525ca56af80439694337aa3b4a0f,
+        type: 2}
+      propertyPath: m_GravityScale
+      value: 9.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f3b8525ca56af80439694337aa3b4a0f, type: 2}

@@ -1,0 +1,23 @@
+h_class Shoot
+h_{
+h_	private: 	
+h_		int shotsFired;
+h_		int ammoUsed;
+h_	public: 
+h_		Shoot(int s=0, int a=0) {shotsFired=s; ammoUsed=a;}
+h_		Shoot operator++(int);
+h_}
+i_Shoot Shoot::operator ++(int) {
+P_	Shoot temp(shotsFired, ammoUsed);a
+p_	shotsFired++;b		
+p_	ammoUsed++;b
+p_	return temp;c
+i_}
+c_Shoot temp(shotsFired, ammoUsed);a
+c_shotsFired++;b		
+c_ammoUsed++;b
+c_return temp;c
+c_temp(shotsFired, ammoUsed);d
+c_shotsFired = ammoUsed;d
+c_shotsFired + ammoUsed;d
+c_return tempd

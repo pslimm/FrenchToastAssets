@@ -28,6 +28,7 @@ public class CodeCanvasTrigger : MonoBehaviour {
 			osvaldo.gameObject.GetComponent<MegamanController>().jumpForce = 0.0f;
 			Time.timeScale = 0.0f;
 			codeCanvas.SetActive (true);
+            this.gameObject.GetComponent<Collider2D>().enabled = false;
 		}
 	}
 
@@ -40,14 +41,20 @@ public class CodeCanvasTrigger : MonoBehaviour {
 
         foreach (GameObject slot in slots)
         {
-            if (!slot.GetComponentInChildren<PuzzlePieceDrag>().matchTag.Equals(slot.GetComponent<PuzzlePieceSlot>().matchTag))
+            try { 
+                if (!slot.GetComponentInChildren<PuzzlePieceDrag>().matchTag.Equals(slot.GetComponent<PuzzlePieceSlot>().matchTag))
+                {
+                    Debug.Log("Incorrect answer!");
+                    slot.GetComponentInChildren<Image>().color = Color.red;
+                    correct = false;
+                } else
+                {
+                    slot.GetComponentInChildren<Image>().color = Color.green;
+                }
+            }
+            catch
             {
-                Debug.Log("Incorrect answer!");
-                slot.GetComponentInChildren<Image>().color = Color.red;
-                correct = false;
-            } else
-            {
-                slot.GetComponentInChildren<Image>().color = Color.green;
+                Debug.Log("No options selected");
             }
         }
 
@@ -56,10 +63,15 @@ public class CodeCanvasTrigger : MonoBehaviour {
             codeCanvas.SetActive(false);
             Time.timeScale = 1.0f;
             // Make character perform correct action
+
+            GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 7000.0f));
+
         }
 
         //codeCanvas.SetActive(false);
-        GameObject.FindWithTag("Player").GetComponent<MegamanController>().jumpForce = 700.0f;
+        //Time.timeScale = 1.0f;
+        //codeCanvas.SetActive(false);
+        // GameObject.FindWithTag("Player").GetComponent<MegamanController>().jumpForce = 700.0f;
 
 
 
