@@ -1,9 +1,12 @@
 ﻿	using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class CodeCanvasTrigger : MonoBehaviour {
 
 	GameObject codeCanvas;
+    GameObject fileHandler;
 
 	// Use this for initialization
 	void Start () {
@@ -29,14 +32,36 @@ public class CodeCanvasTrigger : MonoBehaviour {
 	}
 
 	public void onCheckClick() {
-		codeCanvas.SetActive (false);
-		Time.timeScale = 1.0f;
-		GameObject.FindWithTag("Player").GetComponent<MegamanController>().jumpForce = 700.0f;
 
-      
+        bool correct = true;
+        // Check answers
+        fileHandler = GameObject.Find("FileHandler");
+        List<GameObject> slots = fileHandler.GetComponent<FileHandler>().slots;
+
+        foreach (GameObject slot in slots)
+        {
+            if (!slot.GetComponentInChildren<PuzzlePieceDrag>().matchTag.Equals(slot.GetComponent<PuzzlePieceSlot>().matchTag))
+            {
+                Debug.Log("Incorrect answer!");
+                slot.GetComponentInChildren<Image>().color = Color.red;
+                correct = false;
+            } else
+            {
+                slot.GetComponentInChildren<Image>().color = Color.green;
+            }
+        }
+
+        if (correct)
+        {
+            codeCanvas.SetActive(false);
+            Time.timeScale = 1.0f;
+            // Make character perform correct action
+        }
+
+        //codeCanvas.SetActive(false);
+        GameObject.FindWithTag("Player").GetComponent<MegamanController>().jumpForce = 700.0f;
 
 
 
-
-	}
+    }
 }

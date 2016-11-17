@@ -110,7 +110,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 12
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e881d3c1e1a3df64cb0cfa049498c563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tag: 
+  matchTag: 
 --- !u!222 &222000010274081644
 CanvasRenderer:
   m_ObjectHideFlags: 1

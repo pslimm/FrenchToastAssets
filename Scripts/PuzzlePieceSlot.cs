@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 
 public class PuzzlePieceSlot : MonoBehaviour, IDropHandler 
 {
-    public string tag;
+    public string matchTag;
 	public GameObject item
 	{
 		get
