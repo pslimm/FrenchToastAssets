@@ -8,15 +8,16 @@ h_		Player(int jh=1, int jd=1){jumpHeight=jh; jumpDistance=jd;}
 h_		Player operator *(Player multiplier);
 h_}
 i_Player Player::operator *(Player multiplier) {
-p_	Player newStats;
-p_	newStats.jumpHeight = jumpHeight * multiplier.jumpHeight;
-p_	newStats.jumpDistance = jumpDistance * multiplier.jumpDistance;
-p_	return newStats;
+p_// Declare a new Playera
+p_// Multiplication to modify the new playerb
+p_b
+p_// Return the new modified playerc
 i_}
 c_Player newStats;a
 c_newStats.jumpHeight = jumpHeight * multiplier.jumpHeight;b
 c_newStats.jumpDistance = jumpDistance * multiplier.jumpDistance;b
-c_jumpDistance = newStats.jumpDistance * multiplier.jumpDistance;
-c_jumpHeight = newStats.jumpHeight * multiplier.jumpHeight
-c_
+c_jumpDistance = newStats.jumpDistance * multiplier.jumpDistance;d
+c_jumpHeight = newStats.jumpHeight * multiplier.jumpHeight;d
+c_return jumpHeight;d
+c_return jumpDistance;d
 c_return newStats;c

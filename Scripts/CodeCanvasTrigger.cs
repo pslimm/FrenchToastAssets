@@ -1,9 +1,12 @@
 ﻿	using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class CodeCanvasTrigger : MonoBehaviour {
 
 	GameObject codeCanvas;
+    GameObject fileHandler;
 
 	// Use this for initialization
 	void Start () {
@@ -25,18 +28,52 @@ public class CodeCanvasTrigger : MonoBehaviour {
 			osvaldo.gameObject.GetComponent<MegamanController>().jumpForce = 0.0f;
 			Time.timeScale = 0.0f;
 			codeCanvas.SetActive (true);
+            this.gameObject.GetComponent<Collider2D>().enabled = false;
 		}
 	}
 
 	public void onCheckClick() {
-		codeCanvas.SetActive (false);
-		Time.timeScale = 1.0f;
-		GameObject.FindWithTag("Player").GetComponent<MegamanController>().jumpForce = 700.0f;
 
-      
+        bool correct = true;
+        // Check answers
+        fileHandler = GameObject.Find("FileHandler");
+        List<GameObject> slots = fileHandler.GetComponent<FileHandler>().slots;
+
+        foreach (GameObject slot in slots)
+        {
+            try { 
+                if (!slot.GetComponentInChildren<PuzzlePieceDrag>().matchTag.Equals(slot.GetComponent<PuzzlePieceSlot>().matchTag))
+                {
+                    Debug.Log("Incorrect answer!");
+                    slot.GetComponentInChildren<Image>().color = Color.red;
+                    correct = false;
+                } else
+                {
+                    slot.GetComponentInChildren<Image>().color = Color.green;
+                }
+            }
+            catch
+            {
+                Debug.Log("No options selected");
+            }
+        }
+
+        if (correct)
+        {
+            codeCanvas.SetActive(false);
+            Time.timeScale = 1.0f;
+            // Make character perform correct action
+
+            GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 7000.0f));
+
+        }
+
+        //codeCanvas.SetActive(false);
+        //Time.timeScale = 1.0f;
+        //codeCanvas.SetActive(false);
+        // GameObject.FindWithTag("Player").GetComponent<MegamanController>().jumpForce = 700.0f;
 
 
 
-
-	}
+    }
 }

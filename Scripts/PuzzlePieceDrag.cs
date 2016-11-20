@@ -7,7 +7,7 @@ public class PuzzlePieceDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 	public static GameObject itemBeingDragged;
 	Vector3 startPosition;
 	Transform startParent;
-    public string tag;
+    public string matchTag;
 
 	#region IBeginDragHandler implementation
 

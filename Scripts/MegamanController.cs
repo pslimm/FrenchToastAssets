@@ -35,6 +35,7 @@ public class MegamanController : MonoBehaviour
 		animatePlayer.SetFloat("Speed", Mathf.Abs(maxSpeed));
 
 		GetComponent<Rigidbody2D>().velocity = new Vector2 (/*move **/ maxSpeed, GetComponent<Rigidbody2D>().velocity.y);
+        
 
 		/*if (move > 0 && !facingRight) {
 			Flip();
@@ -61,7 +62,7 @@ public class MegamanController : MonoBehaviour
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
-
+        
 
 	}
 }
