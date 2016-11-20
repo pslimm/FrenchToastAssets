@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 701f93cae749c1f4fa31870a3b784867
-timeCreated: 1479228946
+guid: 492bb827565a8fa4e84ebccfa6c52f97
+timeCreated: 1479332152
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -48,30 +48,33 @@ TextureImporter:
     21300082: osvaldo_sprite_sheet_41
     21300084: osvaldo_sprite_sheet_42
     21300086: osvaldo_sprite_sheet_43
-    21300088: osvaldo_sprite_sheet_44
-    21300090: osvaldo_sprite_sheet_45
-    21300092: osvaldo_sprite_sheet_46
-    21300094: osvaldo_sprite_sheet_47
-    21300096: osvaldo_sprite_sheet_48
-    21300098: osvaldo_sprite_sheet_49
-    21300100: osvaldo_sprite_sheet_50
-    21300102: osvaldo_sprite_sheet_51
-    21300104: osvaldo_sprite_sheet_52
-    21300106: osvaldo_sprite_sheet_53
-    21300108: osvaldo_sprite_sheet_54
-    21300110: osvaldo_sprite_sheet_55
-    21300112: osvaldo_sprite_sheet_56
-    21300114: osvaldo_sprite_sheet_57
-    21300116: osvaldo_sprite_sheet_58
-    21300118: osvaldo_sprite_sheet_59
-    21300120: osvaldo_sprite_sheet_60
-    21300122: osvaldo_sprite_sheet_61
-    21300124: osvaldo_sprite_sheet_62
-    21300126: osvaldo_sprite_sheet_63
+    21300088: osvaldo_sprite_sheet_45
+    21300090: osvaldo_sprite_sheet_46
+    21300092: osvaldo_sprite_sheet_47
+    21300094: osvaldo_sprite_sheet_48
+    21300096: osvaldo_sprite_sheet_49
+    21300098: osvaldo_sprite_sheet_50
+    21300100: osvaldo_sprite_sheet_51
+    21300102: osvaldo_sprite_sheet_52
+    21300104: osvaldo_sprite_sheet_53
+    21300106: osvaldo_sprite_sheet_54
+    21300108: osvaldo_sprite_sheet_55
+    21300110: osvaldo_sprite_sheet_56
+    21300112: osvaldo_sprite_sheet_57
+    21300114: osvaldo_sprite_sheet_58
+    21300116: osvaldo_sprite_sheet_59
+    21300118: osvaldo_sprite_sheet_60
+    21300120: osvaldo_sprite_sheet_61
+    21300122: osvaldo_sprite_sheet_62
+    21300124: osvaldo_sprite_sheet_63
+    21300126: osvaldo_sprite_sheet_64
+    21300128: osvaldo_sprite_sheet_65
+    21300130: osvaldo_sprite_sheet_66
+    21300132: osvaldo_sprite_sheet_67
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -123,9 +126,9 @@ TextureImporter:
         x: 8
         y: 313
         width: 21
-        height: 23
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -138,7 +141,7 @@ TextureImporter:
         width: 21
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -149,9 +152,9 @@ TextureImporter:
         x: 109
         y: 313
         width: 20
-        height: 23
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -164,7 +167,7 @@ TextureImporter:
         width: 24
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -177,7 +180,7 @@ TextureImporter:
         width: 15
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -190,7 +193,7 @@ TextureImporter:
         width: 21
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -203,7 +206,7 @@ TextureImporter:
         width: 26
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -216,7 +219,7 @@ TextureImporter:
         width: 24
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -229,7 +232,7 @@ TextureImporter:
         width: 20
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -242,7 +245,7 @@ TextureImporter:
         width: 16
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -255,7 +258,7 @@ TextureImporter:
         width: 26
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -266,9 +269,9 @@ TextureImporter:
         x: 56
         y: 263
         width: 28
-        height: 21
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -277,11 +280,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 108
-        y: 263
+        y: 262
         width: 27
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -290,11 +293,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 156
-        y: 263
+        y: 262
         width: 25
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -303,11 +306,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 209
-        y: 263
+        y: 262
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -316,11 +319,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 255
-        y: 263
+        y: 262
         width: 26
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -329,11 +332,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 306
-        y: 257
+        y: 256
         width: 27
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -341,12 +344,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_17
       rect:
         serializedVersion: 2
-        x: 8
-        y: 213
-        width: 21
-        height: 23
+        x: 352
+        y: 262
+        width: 23
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -354,12 +357,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_18
       rect:
         serializedVersion: 2
-        x: 58
-        y: 213
-        width: 21
-        height: 23
+        x: 404
+        y: 262
+        width: 27
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -367,12 +370,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_19
       rect:
         serializedVersion: 2
-        x: 109
-        y: 213
-        width: 21
-        height: 23
+        x: 456
+        y: 262
+        width: 27
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -380,12 +383,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_20
       rect:
         serializedVersion: 2
-        x: 156
+        x: 8
         y: 213
         width: 21
-        height: 22
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -393,12 +396,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_21
       rect:
         serializedVersion: 2
-        x: 209
+        x: 58
         y: 213
-        width: 18
+        width: 21
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -406,12 +409,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_22
       rect:
         serializedVersion: 2
-        x: 255
+        x: 109
         y: 213
-        width: 22
-        height: 22
+        width: 21
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -419,12 +422,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_23
       rect:
         serializedVersion: 2
-        x: 306
-        y: 207
-        width: 24
-        height: 30
+        x: 156
+        y: 213
+        width: 21
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -432,12 +435,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_24
       rect:
         serializedVersion: 2
-        x: 351
+        x: 209
         y: 213
-        width: 26
-        height: 21
+        width: 18
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -445,12 +448,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_25
       rect:
         serializedVersion: 2
-        x: 408
-        y: 215
-        width: 26
+        x: 255
+        y: 213
+        width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -458,12 +461,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_26
       rect:
         serializedVersion: 2
-        x: 8
-        y: 163
-        width: 22
-        height: 23
+        x: 306
+        y: 207
+        width: 24
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -471,12 +474,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_27
       rect:
         serializedVersion: 2
-        x: 57
-        y: 163
-        width: 21
-        height: 23
+        x: 351
+        y: 213
+        width: 26
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -484,12 +487,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_28
       rect:
         serializedVersion: 2
-        x: 108
-        y: 163
-        width: 27
+        x: 408
+        y: 215
+        width: 26
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -497,12 +500,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_29
       rect:
         serializedVersion: 2
-        x: 155
-        y: 164
-        width: 29
-        height: 20
+        x: 456
+        y: 213
+        width: 27
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -510,12 +513,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_30
       rect:
         serializedVersion: 2
-        x: 209
+        x: 8
         y: 163
-        width: 25
-        height: 22
+        width: 22
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -523,12 +526,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_31
       rect:
         serializedVersion: 2
-        x: 256
+        x: 57
         y: 163
-        width: 28
-        height: 20
+        width: 21
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -536,12 +539,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_32
       rect:
         serializedVersion: 2
-        x: 306
-        y: 157
-        width: 28
-        height: 29
+        x: 108
+        y: 163
+        width: 27
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -549,12 +552,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_33
       rect:
         serializedVersion: 2
-        x: 351
-        y: 163
-        width: 31
-        height: 19
+        x: 155
+        y: 164
+        width: 29
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -562,12 +565,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_34
       rect:
         serializedVersion: 2
-        x: 408
-        y: 165
-        width: 23
+        x: 209
+        y: 163
+        width: 25
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -575,12 +578,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_35
       rect:
         serializedVersion: 2
-        x: 461
-        y: 158
-        width: 24
-        height: 29
+        x: 256
+        y: 163
+        width: 28
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -588,12 +591,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_36
       rect:
         serializedVersion: 2
-        x: 8
-        y: 113
-        width: 21
-        height: 22
+        x: 306
+        y: 157
+        width: 28
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -601,12 +604,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_37
       rect:
         serializedVersion: 2
-        x: 56
-        y: 113
-        width: 25
-        height: 24
+        x: 351
+        y: 163
+        width: 31
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -614,12 +617,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_38
       rect:
         serializedVersion: 2
-        x: 109
-        y: 113
-        width: 27
-        height: 20
+        x: 408
+        y: 165
+        width: 23
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -627,10 +630,23 @@ TextureImporter:
       name: osvaldo_sprite_sheet_39
       rect:
         serializedVersion: 2
-        x: 308
-        y: 106
+        x: 461
+        y: 158
         width: 24
-        height: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 113
+        width: 21
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -640,12 +656,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_41
       rect:
         serializedVersion: 2
-        x: 357
-        y: 107
+        x: 56
+        y: 113
         width: 25
-        height: 29
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -653,12 +669,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_42
       rect:
         serializedVersion: 2
-        x: 412
-        y: 123
-        width: 16
-        height: 15
+        x: 109
+        y: 113
+        width: 27
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -666,23 +682,10 @@ TextureImporter:
       name: osvaldo_sprite_sheet_43
       rect:
         serializedVersion: 2
-        x: 461
-        y: 112
-        width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: osvaldo_sprite_sheet_44
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 63
-        width: 23
-        height: 22
+        x: 309
+        y: 107
+        width: 21
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -692,12 +695,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_45
       rect:
         serializedVersion: 2
-        x: 58
-        y: 63
-        width: 22
-        height: 22
+        x: 357
+        y: 107
+        width: 25
+        height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -705,12 +708,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_46
       rect:
         serializedVersion: 2
-        x: 108
-        y: 63
-        width: 21
-        height: 22
+        x: 412
+        y: 123
+        width: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -718,12 +721,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_47
       rect:
         serializedVersion: 2
-        x: 163
-        y: 63
-        width: 27
-        height: 22
+        x: 461
+        y: 112
+        width: 16
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -731,12 +734,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_48
       rect:
         serializedVersion: 2
-        x: 213
+        x: 7
         y: 63
-        width: 29
-        height: 14
+        width: 22
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -744,12 +747,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_49
       rect:
         serializedVersion: 2
-        x: 263
+        x: 58
         y: 63
-        width: 29
-        height: 15
+        width: 22
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -757,12 +760,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_50
       rect:
         serializedVersion: 2
-        x: 313
+        x: 108
         y: 63
-        width: 29
-        height: 11
+        width: 21
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -770,12 +773,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_51
       rect:
         serializedVersion: 2
-        x: 360
+        x: 163
         y: 63
-        width: 23
+        width: 27
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -783,12 +786,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_52
       rect:
         serializedVersion: 2
-        x: 407
+        x: 213
         y: 63
-        width: 27
-        height: 22
+        width: 29
+        height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -796,12 +799,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_53
       rect:
         serializedVersion: 2
-        x: 453
+        x: 263
         y: 63
-        width: 32
-        height: 22
+        width: 29
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -809,12 +812,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_54
       rect:
         serializedVersion: 2
-        x: 8
-        y: 13
-        width: 21
-        height: 24
+        x: 313
+        y: 63
+        width: 29
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -822,12 +825,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_55
       rect:
         serializedVersion: 2
-        x: 58
-        y: 13
-        width: 21
-        height: 23
+        x: 360
+        y: 63
+        width: 23
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -835,12 +838,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_56
       rect:
         serializedVersion: 2
-        x: 108
-        y: 13
-        width: 21
-        height: 24
+        x: 407
+        y: 63
+        width: 27
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -848,12 +851,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_57
       rect:
         serializedVersion: 2
-        x: 157
-        y: 13
-        width: 26
-        height: 21
+        x: 453
+        y: 63
+        width: 32
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -861,12 +864,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_58
       rect:
         serializedVersion: 2
-        x: 207
+        x: 8
         y: 13
-        width: 23
-        height: 22
+        width: 21
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -874,12 +877,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_59
       rect:
         serializedVersion: 2
-        x: 261
+        x: 58
         y: 13
-        width: 16
-        height: 22
+        width: 21
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -887,12 +890,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_60
       rect:
         serializedVersion: 2
-        x: 314
+        x: 108
         y: 13
-        width: 11
-        height: 22
+        width: 21
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -900,12 +903,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_61
       rect:
         serializedVersion: 2
-        x: 361
+        x: 157
         y: 13
-        width: 17
-        height: 23
+        width: 25
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -913,12 +916,12 @@ TextureImporter:
       name: osvaldo_sprite_sheet_62
       rect:
         serializedVersion: 2
-        x: 408
+        x: 207
         y: 13
-        width: 21
+        width: 23
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -926,12 +929,64 @@ TextureImporter:
       name: osvaldo_sprite_sheet_63
       rect:
         serializedVersion: 2
+        x: 261
+        y: 13
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 13
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 13
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 13
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: osvaldo_sprite_sheet_67
+      rect:
+        serializedVersion: 2
         x: 458
         y: 13
         width: 21
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
