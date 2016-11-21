@@ -9,11 +9,18 @@ public class CodeCanvasTrigger : MonoBehaviour {
 	GameObject codeCanvas;
     GameObject fileHandler;
     GameObject operatorUse;
+    public TextAsset fileToLoad;
 
     // Use this for initialization
     void Start () {
 		codeCanvas = GameObject.FindGameObjectWithTag ("CodeCanvas");
         operatorUse = GameObject.Find("OperatorUse");
+        fileHandler = GameObject.Find("FileHandler");
+
+        // When the player steps into this trigger, load the specified file
+        fileHandler.GetComponent<FileHandler>().file = fileToLoad;
+        fileHandler.GetComponent<FileHandler>().runFileHandler();
+
         codeCanvas.SetActive (false);
         operatorUse.SetActive(false);
     }
@@ -22,10 +29,6 @@ public class CodeCanvasTrigger : MonoBehaviour {
 	void Update () {
 		//Debug.Log (codeCanvas.layer.ToString ());
 	}
-
-	/*public void onBubbleClick () {
-		codeCanvas.SetActive (true);
-	}*/
 
 	void OnTriggerEnter2D(Collider2D osvaldo) {
 		if (osvaldo.gameObject.tag == "Player") {
@@ -36,22 +39,24 @@ public class CodeCanvasTrigger : MonoBehaviour {
 		}
 	}
 
-	public void onCheckClick() {
+    public void onCheckClick()
+    {
 
         bool correct = true;
         // Check answers
-        fileHandler = GameObject.Find("FileHandler");
         List<GameObject> slots = fileHandler.GetComponent<FileHandler>().slots;
 
         foreach (GameObject slot in slots)
         {
-            try { 
+            try
+            {
                 if (!slot.GetComponentInChildren<PuzzlePieceDrag>().matchTag.Equals(slot.GetComponent<PuzzlePieceSlot>().matchTag))
                 {
                     Debug.Log("Incorrect answer!");
                     slot.GetComponentInChildren<Image>().color = Color.red;
                     correct = false;
-                } else
+                }
+                else
                 {
                     slot.GetComponentInChildren<Image>().color = Color.green;
                 }
@@ -66,12 +71,18 @@ public class CodeCanvasTrigger : MonoBehaviour {
         if (correct)
         {
             // If tutorial
-            if (SceneManager.GetActiveScene().name[0] == '3')
+            if (fileHandler.GetComponent<FileHandler>().file.name == "Addition" || fileHandler.GetComponent<FileHandler>().file.name == "Multiplication")
             {
-                Debug.Log("Test");
                 codeCanvas.SetActive(false);
                 Time.timeScale = 1.0f;
-                GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 7000.0f));       
+                GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 7000.0f));
+            }
+
+            if (fileHandler.GetComponent<FileHandler>().file.name == "Increment")
+            {
+                codeCanvas.SetActive(false);
+                Time.timeScale = 1.0f;
+                GameObject.FindWithTag("Player").GetComponent<Shoot>().shooting = true;
             }
         }
     }

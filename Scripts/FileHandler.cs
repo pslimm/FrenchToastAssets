@@ -28,11 +28,14 @@ public class FileHandler : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
+        Debug.Log("File handler");
         runFileHandler();
     }
 
     public void runFileHandler()
     {
+        operatorText = GameObject.Find("OperatorText").GetComponentInChildren<Text>();
+        clearBoard();
         readFile();
         splitLineList();
 
@@ -42,7 +45,6 @@ public class FileHandler : MonoBehaviour {
             headerText.text += line + '\n';
         }
 
-        operatorText = GameObject.Find("OperatorText").GetComponentInChildren<Text>();
         foreach (string line in operatorAnswers)
         {
             operatorText.text += line + '\n';
@@ -53,6 +55,32 @@ public class FileHandler : MonoBehaviour {
         // Instantiate our slots and draggables, doing some string parsing to process tags
         drawSlots();
         drawDraggables();
+    }
+
+    private void clearBoard()
+    {
+        lineList.Clear();
+        headerFile.Clear();
+        classDefinition.Clear();
+        puzzleSlots.Clear();
+        puzzlePieces.Clear();
+        operatorAnswers.Clear();
+
+        draggables.Clear();
+        slots.Clear();
+
+        headerText.text = "";
+        operatorText.text = "";
+
+        foreach (Transform child in draggableBox.transform)
+        {
+            Destroy(child.gameObject);
+        }
+
+        foreach (Transform child in implementationArea.transform)
+        {
+            Destroy(child.gameObject);
+        }
     }
 
     private void drawDraggables()

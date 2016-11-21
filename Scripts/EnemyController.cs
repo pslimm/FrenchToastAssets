@@ -20,11 +20,11 @@ public class EnemyController : MonoBehaviour
 	{
 		if((targetPosition > this.transform.position.x) && (!facingRight))
 		{
-			Flip();
+			// Flip();
 		}
 		else if((targetPosition < this.transform.position.x) && (facingRight))
 		{
-			Flip();
+			// Flip();
 		}
 	}
 

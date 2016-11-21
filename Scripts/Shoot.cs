@@ -4,7 +4,7 @@ using System.Collections;
 public class Shoot : MonoBehaviour 
 {
 	public Animator animatePlayer;
-	bool shooting = false;
+	public bool shooting = false;
 
 	// Use this for initialization
 	void Start () 
@@ -18,6 +18,7 @@ public class Shoot : MonoBehaviour
 	{
 		if (Input.GetKeyDown ("s")) 
 		{
+            Debug.Log("Shooting!");
             shooting = true;
 		}
 		if (shooting == true) 

@@ -62,7 +62,14 @@ public class MegamanController : MonoBehaviour
 		Vector3 theScale = transform.localScale;
 		theScale.x *= -1;
 		transform.localScale = theScale;
-        
-
 	}
+
+    void OnTriggerEnter2D(Collider2D obj)
+    {
+        if (obj.gameObject.tag == "Enemy")
+        {
+            Debug.Log("Clearing enemy");
+            Destroy(obj.gameObject);
+        }
+    }
 }

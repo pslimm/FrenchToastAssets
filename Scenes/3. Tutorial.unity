@@ -1284,6 +1284,11 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 751056932}
+    - target: {fileID: 114000014178227514, guid: 87f0b5b8c79283646945319b17026e96,
+        type: 2}
+      propertyPath: fileToLoad
+      value: 
+      objectReference: {fileID: 4900000, guid: 1bc9fdb52dd0eab46884fa733acdb971, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 87f0b5b8c79283646945319b17026e96, type: 2}
   m_IsPrefabParent: 0
@@ -1470,6 +1475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fdf47b73fe61c643ab5b72d3be01aca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fileToLoad: {fileID: 0}
 --- !u!1 &863009348
 GameObject:
   m_ObjectHideFlags: 0
@@ -1774,6 +1780,62 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 311412915}
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+--- !u!1 &1161310444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1161310445}
+  - 61: {fileID: 1161310447}
+  - 114: {fileID: 1161310446}
+  m_Layer: 0
+  m_Name: LevelTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1161310445
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1161310444}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 327, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 2055189204}
+  m_RootOrder: 3
+--- !u!114 &1161310446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1161310444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c24b4e63039b0ab48bf481b8fff43e39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelName: 4. Level 1
+--- !u!61 &1161310447
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1161310444}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: -2.495514, y: 75.43765}
+  serializedVersion: 2
+  m_Size: {x: 90.77895, y: 89.53021}
 --- !u!1 &1329099097
 GameObject:
   m_ObjectHideFlags: 0
@@ -2399,6 +2461,7 @@ Transform:
   - {fileID: 983411980}
   - {fileID: 1097068544}
   - {fileID: 484274400}
+  - {fileID: 1161310445}
   m_Father: {fileID: 0}
   m_RootOrder: 6
 --- !u!1 &2090519137
