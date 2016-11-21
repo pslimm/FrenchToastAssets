@@ -14,29 +14,61 @@ public class FileHandler : MonoBehaviour {
     public List<string> classDefinition;
     public List<string> puzzleSlots;
     public List<string> puzzlePieces;
+    public List<string> operatorAnswers;
 
     public List<GameObject> draggables;
     public List<GameObject> slots;
 
-    public Text headerText, classDecText, commentText;
+    public Text headerText, classDecText, commentText, operatorText;
     public GameObject draggable;
     public GameObject slot;
     public GameObject draggableBox;
     public GameObject implementationArea;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
+        runFileHandler();
+    }
+
+    public void runFileHandler()
+    {
         readFile();
         splitLineList();
 
         // Initialize the header
-        foreach (string line in headerFile) {
+        foreach (string line in headerFile)
+        {
             headerText.text += line + '\n';
         }
 
+        operatorText = GameObject.Find("OperatorText").GetComponentInChildren<Text>();
+        foreach (string line in operatorAnswers)
+        {
+            operatorText.text += line + '\n';
+        }
+
         classDecText.text = classDefinition[0].ToString();
-       
+
         // Instantiate our slots and draggables, doing some string parsing to process tags
+        drawSlots();
+        drawDraggables();
+    }
+
+    private void drawDraggables()
+    {
+        for (int i = 0; i < puzzlePieces.Count; i++)
+        {
+            draggables.Add(Instantiate(draggable));
+            draggables[i].transform.SetParent(draggableBox.transform);
+            draggables[i].gameObject.GetComponentInChildren<Text>().text = puzzlePieces[i].Substring(0, puzzlePieces[i].Length - 1);
+            draggables[i].GetComponentInChildren<PuzzlePieceDrag>().matchTag = puzzlePieces[i][puzzlePieces[i].Length - 1].ToString();
+
+        }
+    }
+
+    private void drawSlots()
+    {
         for (int i = 0; i < puzzleSlots.Count; i++)
         {
             slots.Add(Instantiate(slot));
@@ -46,22 +78,11 @@ public class FileHandler : MonoBehaviour {
             // If there's a comment, instantiate and draw
             if (puzzleSlots[i].Length > 3)
             {
-                Debug.Log("reached");
-                Instantiate(commentText);
-                commentText.text = puzzleSlots[i].ToString().Remove(puzzleSlots[i].Length -1).Replace("\t", "");
-               // commentText.GetComponent<RectTransform>().position = slots[i].GetComponent<RectTransform>().position;
-                // commentText.transform.rotation = slots[i].transform.rotation;
+                Instantiate(commentText, slots[i].transform);
 
+                Text commentTextToModify = slots[i].GetComponentInChildren<Text>();
+                commentTextToModify.text = puzzleSlots[i].ToString().Remove(puzzleSlots[i].Length - 1).Replace("\t", " ");
             }
-        }
-
-        for (int i = 0; i < puzzlePieces.Count; i++)
-        {
-            draggables.Add(Instantiate(draggable));
-            draggables[i].transform.SetParent(draggableBox.transform);
-            draggables[i].gameObject.GetComponentInChildren<Text>().text = puzzlePieces[i].ToString();
-            draggables[i].GetComponentInChildren<PuzzlePieceDrag>().matchTag = puzzlePieces[i][puzzlePieces[i].Length - 1].ToString();
-
         }
     }
 
@@ -82,6 +103,11 @@ public class FileHandler : MonoBehaviour {
             else if (lineList[i][0].Equals('c'))
             {
                 puzzlePieces.Add(lineList[i].Replace("c_", ""));
+            }
+
+            else if (lineList[i][0].Equals('s'))
+            {
+                operatorAnswers.Add(lineList[i].Replace("s_", ""));
             }
 
             else
@@ -115,6 +141,6 @@ public class FileHandler : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-       
+        
     }
 }
