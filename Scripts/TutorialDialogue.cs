@@ -18,7 +18,6 @@ public class TutorialDialogue : MonoBehaviour {
     Text tutorialText;
 
 	int dialogueCount;
-    public bool overloadTrigger = false;
 
 
 	// Use this for initialization
@@ -42,8 +41,7 @@ public class TutorialDialogue : MonoBehaviour {
 
         tutorialTextList = new List<string>();
         tutorialTextList.Add("I'll have to overload the multiplication operator so I can jump over.");
-        tutorialTextList.Add("Drag the correct lines of code to the corresponding spot in the center and press the green button when you're done.");
-        tutorialTextList.Add("Use the class definition at the bottom as a reference!");
+        tutorialTextList.Add("Drag the correct lines of code to the corresponding spot in the center!");
 
         tutorialText.text = tutorialTextList[0];
 
@@ -80,11 +78,10 @@ public class TutorialDialogue : MonoBehaviour {
     {
         dialogueCount += 1;
 
-        if (dialogueCount >= tutorialTextList.Count)
+        if (dialogueCount > dialogueList.Count)
         {
-            // Debug.Log("Dialogue Count " + dialogueCount);
+            Debug.Log("Dialogue Count " + dialogueCount);
             tutorialBox.SetActive(false);
-            dialogueCount = 0;
             return;
         }
         tutorialText.text = tutorialTextList[dialogueCount];
@@ -94,9 +91,6 @@ public class TutorialDialogue : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-	    if (overloadTrigger)
-        {
-            Debug.Log("overload enabled");
-        }
+	
 	}
 }
