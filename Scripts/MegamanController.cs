@@ -51,7 +51,7 @@ public class MegamanController : MonoBehaviour
 	{
 		if (onGround && Input.GetKeyDown (KeyCode.Space)) 
 		{
-			animatePlayer.SetBool ("onGround", false); // no longer on ground
+			// animatePlayer.SetBool ("onGround", false); // no longer on ground
 			GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
 		}
 	}

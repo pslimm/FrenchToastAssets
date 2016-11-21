@@ -85,7 +85,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 9.8
   m_IsKinematic: 0
   m_Interpolate: 1
   m_SleepingMode: 1
@@ -148,6 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 10
+  animatePlayer: {fileID: 0}
   checkForGround: {fileID: 4000013697616172}
   whatIsGround:
     serializedVersion: 2

@@ -18,9 +18,9 @@ public class Shoot : MonoBehaviour
 	{
 		if (Input.GetKeyDown ("s")) 
 		{
-			shooting = true
+            shooting = true;
 		}
-		if (shooting = true) 
+		if (shooting == true) 
 		{
 			animatePlayer.SetBool ("Shooting", shooting);
 		}
