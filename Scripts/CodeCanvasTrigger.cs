@@ -2,16 +2,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CodeCanvasTrigger : MonoBehaviour {
 
 	GameObject codeCanvas;
     GameObject fileHandler;
+    GameObject operatorUse;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		codeCanvas = GameObject.FindGameObjectWithTag ("CodeCanvas");
-		codeCanvas.SetActive (false);
+        operatorUse = GameObject.Find("OperatorUse");
+        codeCanvas.SetActive (false);
+        operatorUse.SetActive(false);
     }
 	
 	// Update is called once per frame
@@ -55,25 +59,20 @@ public class CodeCanvasTrigger : MonoBehaviour {
             catch
             {
                 Debug.Log("No options selected");
+                correct = false;
             }
         }
 
         if (correct)
         {
-            codeCanvas.SetActive(false);
-            Time.timeScale = 1.0f;
-            // Make character perform correct action
-
-            GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 7000.0f));
-
+            // If tutorial
+            if (SceneManager.GetActiveScene().name[0] == '3')
+            {
+                Debug.Log("Test");
+                codeCanvas.SetActive(false);
+                Time.timeScale = 1.0f;
+                GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 7000.0f));       
+            }
         }
-
-        //codeCanvas.SetActive(false);
-        //Time.timeScale = 1.0f;
-        //codeCanvas.SetActive(false);
-        // GameObject.FindWithTag("Player").GetComponent<MegamanController>().jumpForce = 700.0f;
-
-
-
     }
 }

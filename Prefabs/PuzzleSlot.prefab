@@ -49,7 +49,7 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 1
-  m_CellSize: {x: 100, y: 100}
+  m_CellSize: {x: 200, y: 50}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -91,7 +91,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98aef2b6ee09fc44a929e1b6300ca0d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tag: 
+  matchTag: 
 --- !u!222 &222000010555815010
 CanvasRenderer:
   m_ObjectHideFlags: 1

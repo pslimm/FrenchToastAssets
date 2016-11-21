@@ -21,3 +21,7 @@ c_jumpHeight = newStats.jumpHeight * multiplier.jumpHeight;d
 c_return jumpHeight;d
 c_return jumpDistance;d
 c_return newStats;c
+s_Player osvaldo;
+s_Player multiplier(jumpHeight, jumpDistance);
+s_Player newOsvaldo;
+s_newOsvaldo = osvaldo * multiplier;
