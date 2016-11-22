@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e29370dde26abba488288d5d7f2e9a15
-timeCreated: 1479632420
+timeCreated: 1479789627
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -69,12 +69,12 @@ TextureImporter:
       name: increment_color_noText_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 511
-        width: 386
-        height: 287
+        x: 7
+        y: 677
+        width: 395
+        height: 292
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -83,11 +83,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 413
-        y: 741
-        width: 373
-        height: 57
+        y: 894
+        width: 378
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -95,12 +95,12 @@ TextureImporter:
       name: increment_color_noText_2
       rect:
         serializedVersion: 2
-        x: 431
-        y: 641
-        width: 355
-        height: 90
+        x: 413
+        y: 783
+        width: 378
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -108,12 +108,12 @@ TextureImporter:
       name: increment_color_noText_3
       rect:
         serializedVersion: 2
-        x: 414
-        y: 567
-        width: 372
-        height: 73
+        x: 413
+        y: 655
+        width: 378
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -121,12 +121,12 @@ TextureImporter:
       name: increment_color_noText_4
       rect:
         serializedVersion: 2
-        x: 431
-        y: 469
-        width: 355
-        height: 90
+        x: 413
+        y: 537
+        width: 378
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -135,11 +135,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 8
-        y: 390
-        width: 373
-        height: 57
+        y: 385
+        width: 378
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -148,11 +148,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 413
-        y: 386
-        width: 373
-        height: 74
+        y: 385
+        width: 378
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -160,12 +160,12 @@ TextureImporter:
       name: increment_color_noText_7
       rect:
         serializedVersion: 2
-        x: 26
-        y: 290
-        width: 355
-        height: 90
+        x: 8
+        y: 271
+        width: 378
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -173,12 +173,12 @@ TextureImporter:
       name: increment_color_noText_8
       rect:
         serializedVersion: 2
-        x: 431
-        y: 304
-        width: 355
-        height: 74
+        x: 413
+        y: 271
+        width: 378
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -186,12 +186,12 @@ TextureImporter:
       name: increment_color_noText_9
       rect:
         serializedVersion: 2
-        x: 9
-        y: 216
-        width: 372
-        height: 73
+        x: 8
+        y: 152
+        width: 378
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -199,12 +199,12 @@ TextureImporter:
       name: increment_color_noText_10
       rect:
         serializedVersion: 2
-        x: 414
-        y: 214
-        width: 372
-        height: 74
+        x: 413
+        y: 152
+        width: 378
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -212,12 +212,12 @@ TextureImporter:
       name: increment_color_noText_11
       rect:
         serializedVersion: 2
-        x: 26
-        y: 118
-        width: 355
-        height: 90
+        x: 8
+        y: 31
+        width: 378
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -225,12 +225,12 @@ TextureImporter:
       name: increment_color_noText_12
       rect:
         serializedVersion: 2
-        x: 414
-        y: 116
-        width: 372
-        height: 90
+        x: 413
+        y: 32
+        width: 378
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

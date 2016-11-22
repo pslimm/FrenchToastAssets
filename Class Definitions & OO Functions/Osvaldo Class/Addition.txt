@@ -13,16 +13,16 @@ p_// Addition to modify the new playerb
 p_b
 p_// Return the new modified playerc
 i_}
-c_Player newStats;a
-c_newStats.jumpHeight = jumpHeight + adder.jumpHeight;b
-c_jumpDistance = newStats.jumpDistance + adder.jumpDistance;d
-c_newStats.jumpDistance = jumpDistance * multiplier.jumpDistance;d
-c_newStats.jumpDistance = jumpDistance + adder.jumpDistance;b
-c_jumpDistance = newStats.jumpDistance * adder.jumpDistance;d
-c_jumpHeight = newStats.jumpHeight + adder.jumpHeight;d
-c_return jumpHeight;d
-c_return jumpDistance;d
-c_return newStats;c
+c_Player newStats;a0
+c_newStats.jumpHeight = jumpHeight + adder.jumpHeight;b1
+c_jumpDistance = newStats.jumpDistance + adder.jumpDistance;d1
+c_newStats.jumpDistance = jumpDistance * multiplier.jumpDistance;d2
+c_newStats.jumpDistance = jumpDistance + adder.jumpDistance;b2
+c_jumpDistance = newStats.jumpDistance * adder.jumpDistance;d2
+c_jumpHeight = newStats.jumpHeight + adder.jumpHeight;d1
+c_return jumpHeight;d3
+c_return jumpDistance;d3
+c_return newStats;c3
 s_Player osvaldo;
 s_Player adder(jumpHeight, jumpDistance);
 s_Player newOsvaldo;

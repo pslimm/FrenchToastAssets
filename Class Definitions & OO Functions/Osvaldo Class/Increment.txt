@@ -13,11 +13,11 @@ p_// Increment shots and ammob
 p_b
 p_// Return the new shootc
 i_}
-c_Shoot temp(shotsFired, ammoUsed);a
-c_shotsFired++;b
-c_ammoUsed++;b
-c_return temp;c
-c_temp(shotsFired, ammoUsed);d
-c_shotsFired = ammoUsed;d
-c_shotsFired + ammoUsed;d
-c_return tempd
+c_Shoot temp(shotsFired, ammoUsed);a0
+c_shotsFired++;b1
+c_ammoUsed++;b2
+c_return temp;c3
+c_temp(shotsFired, ammoUsed);d0
+c_shotsFired = ammoUsed;d1
+c_shotsFired + ammoUsed;d2
+c_return tempd3

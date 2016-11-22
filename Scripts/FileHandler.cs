@@ -19,6 +19,8 @@ public class FileHandler : MonoBehaviour {
     public List<GameObject> draggables;
     public List<GameObject> slots;
 
+    public List<Sprite> pieces;
+
     public Text headerText, classDecText, commentText, operatorText;
     public GameObject draggable;
     public GameObject slot;
@@ -90,9 +92,10 @@ public class FileHandler : MonoBehaviour {
         {
             draggables.Add(Instantiate(draggable));
             draggables[i].transform.SetParent(draggableBox.transform);
-            draggables[i].gameObject.GetComponentInChildren<Text>().text = puzzlePieces[i].Substring(0, puzzlePieces[i].Length - 1);
-            draggables[i].GetComponentInChildren<PuzzlePieceDrag>().matchTag = puzzlePieces[i][puzzlePieces[i].Length - 1].ToString();
-
+            draggables[i].gameObject.GetComponentInChildren<Text>().text = puzzlePieces[i].Substring(0, puzzlePieces[i].Length - 2);
+            draggables[i].GetComponentInChildren<PuzzlePieceDrag>().matchTag = puzzlePieces[i][puzzlePieces[i].Length - 2].ToString();
+            draggables[i].transform.GetChild(0).GetComponentInChildren<Image>().sprite = pieces[(int) Char.GetNumericValue(puzzlePieces[i][puzzlePieces[i].Length - 1])];
+            Debug.Log(draggables[i].transform.GetChild(0).GetComponentInChildren<Image>().sprite.name);
         }
     }
 

@@ -4,13 +4,11 @@ using System.Collections;
 public class ShootTrigger : MonoBehaviour {
 
     GameObject fileHandler;
-    GameObject codeCanvas;
     public TextAsset fileToRead;
 
 	// Use this for initialization
 	void Start () {
         fileHandler = GameObject.Find("FileHandler");
-        codeCanvas = GameObject.Find("CodeCanvas");
 	}
 	
 	// Update is called once per frame
@@ -27,8 +25,7 @@ public class ShootTrigger : MonoBehaviour {
             Time.timeScale = 0.0f;
             fileHandler.GetComponent<FileHandler>().file = fileToRead;
             fileHandler.GetComponent<FileHandler>().runFileHandler();
-            codeCanvas.SetActive(true);
-            
+            CodeCanvasTrigger.codeCanvas.SetActive(true);
             this.gameObject.GetComponent<Collider2D>().enabled = false;
         }
     }

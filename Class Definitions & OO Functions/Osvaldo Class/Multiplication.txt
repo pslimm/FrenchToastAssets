@@ -13,14 +13,14 @@ p_// Multiplication to modify the new playerb
 p_b
 p_// Return the new modified playerc
 i_}
-c_Player newStats;a
-c_newStats.jumpHeight = jumpHeight * multiplier.jumpHeight;b
-c_newStats.jumpDistance = jumpDistance * multiplier.jumpDistance;b
-c_jumpDistance = newStats.jumpDistance * multiplier.jumpDistance;d
-c_jumpHeight = newStats.jumpHeight * multiplier.jumpHeight;d
-c_return jumpHeight;d
-c_return jumpDistance;d
-c_return newStats;c
+c_Player newStats;a0
+c_newStats.jumpHeight = jumpHeight * multiplier.jumpHeight;b1
+c_newStats.jumpDistance = jumpDistance * multiplier.jumpDistance;b2
+c_jumpDistance = newStats.jumpDistance * multiplier.jumpDistance;d1
+c_jumpHeight = newStats.jumpHeight * multiplier.jumpHeight;d2
+c_return jumpHeight;d3
+c_return jumpDistance;d3
+c_return newStats;c3
 s_Player osvaldo;
 s_Player multiplier(jumpHeight, jumpDistance);
 s_Player newOsvaldo;

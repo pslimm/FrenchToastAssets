@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class CodeCanvasTrigger : MonoBehaviour {
 
-	GameObject codeCanvas;
+	public static GameObject codeCanvas;
     GameObject fileHandler;
     GameObject operatorUse;
     public TextAsset fileToLoad;
