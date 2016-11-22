@@ -7,12 +7,15 @@ public class TutorialDialogue : MonoBehaviour {
 
 	public List<string> dialogueList;
     public List<string> tutorialTextList;
+    public List<string> tutorialEndList;
 
 	GameObject dialogueTextObj;
 	GameObject dialogueBox;
 
     GameObject tutorialTextObj;
     GameObject tutorialBox;
+
+    public GameObject tutorialEndBox;
 
     Text dialogueText;
     Text tutorialText;
@@ -27,12 +30,16 @@ public class TutorialDialogue : MonoBehaviour {
         // Initialize dialogue box
 		dialogueBox = GameObject.FindGameObjectWithTag ("Dialogue");
 		dialogueTextObj = GameObject.FindGameObjectWithTag ("DialogueText");
+
 		dialogueText = dialogueTextObj.GetComponent<Text> ();
 		dialogueBox.SetActive (false);
 
 		dialogueList = new List<string> ();
 		dialogueList.Add ("There's a gap here! Looks like I'll have to jump over.");
 
+        tutorialEndList = new List<string>();
+        tutorialEndList.Add("By overloading operators, I can get my turntable back!");
+        
 
         // Initialize dialogue in code canvas
         tutorialBox = GameObject.FindGameObjectWithTag("TutorialDialogue");
@@ -88,6 +95,12 @@ public class TutorialDialogue : MonoBehaviour {
             return;
         }
         tutorialText.text = tutorialTextList[dialogueCount];
+    }
+
+    public void onTutorialEndClick()
+    {
+        tutorialEndBox.SetActive(false);
+        LoadLevel.dialogueFinish = true;
     }
 
 
