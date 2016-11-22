@@ -21,9 +21,7 @@ public class Shoot : MonoBehaviour
             Debug.Log("Shooting!");
             shooting = true;
 		}
-		if (shooting == true) 
-		{
-			animatePlayer.SetBool ("Shooting", shooting);
-		}
+		animatePlayer.SetBool ("Shooting", shooting);
+  
 	}
 }

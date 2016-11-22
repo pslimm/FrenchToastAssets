@@ -34,7 +34,7 @@ public class FileHandler : MonoBehaviour {
 
     public void runFileHandler()
     {
-        operatorText = GameObject.Find("OperatorText").GetComponentInChildren<Text>();
+        // operatorText = GameObject.Find("OperatorText").GetComponentInChildren<Text>();
         clearBoard();
         readFile();
         splitLineList();
@@ -45,10 +45,11 @@ public class FileHandler : MonoBehaviour {
             headerText.text += line + '\n';
         }
 
+        /*
         foreach (string line in operatorAnswers)
         {
             operatorText.text += line + '\n';
-        }
+        } */
 
         classDecText.text = classDefinition[0].ToString();
 
@@ -70,7 +71,7 @@ public class FileHandler : MonoBehaviour {
         slots.Clear();
 
         headerText.text = "";
-        operatorText.text = "";
+        // operatorText.text = "";
 
         foreach (Transform child in draggableBox.transform)
         {

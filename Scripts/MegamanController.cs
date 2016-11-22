@@ -54,6 +54,8 @@ public class MegamanController : MonoBehaviour
 			// animatePlayer.SetBool ("onGround", false); // no longer on ground
 			GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
 		}
+
+        //Debug.Log();
 	}
 
 	void Flip() // flips character around. now we don't have to animate in the other direction

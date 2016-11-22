@@ -22,7 +22,7 @@ public class CodeCanvasTrigger : MonoBehaviour {
         fileHandler.GetComponent<FileHandler>().runFileHandler();
 
         codeCanvas.SetActive (false);
-        operatorUse.SetActive(false);
+        // operatorUse.SetActive(false);
     }
 	
 	// Update is called once per frame
@@ -82,8 +82,21 @@ public class CodeCanvasTrigger : MonoBehaviour {
             {
                 codeCanvas.SetActive(false);
                 Time.timeScale = 1.0f;
-                GameObject.FindWithTag("Player").GetComponent<Shoot>().shooting = true;
+                //GameObject.FindWithTag("Player").GetComponent<Shoot>().shooting = true;
+                StartCoroutine(shootTime());
             }
+           
         }
+    }
+
+    IEnumerator shootTime()
+    {
+        GameObject.FindWithTag("Player").GetComponent<Shoot>().shooting = true;
+        Debug.Log("player shooting");
+        yield return new WaitForSeconds(0.0f);
+        GameObject.FindWithTag("Player").GetComponent<Shoot>().shooting = false;
+        //GameObject.FindWithTag("Player").GetComponent<Animator>().
+        Debug.Log("player not shooting");
+   
     }
 }
