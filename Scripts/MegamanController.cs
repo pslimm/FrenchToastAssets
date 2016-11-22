@@ -68,10 +68,10 @@ public class MegamanController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D obj)
     {
-        if (obj.gameObject.tag == "Enemy")
-        {
-            Debug.Log("Clearing enemy");
-            Destroy(obj.gameObject);
-        }
+        //if (obj.gameObject.tag == "Enemy")
+        //{
+        //    Debug.Log("Clearing enemy");
+       //     Destroy(obj.gameObject);
+       // }
     }
 }

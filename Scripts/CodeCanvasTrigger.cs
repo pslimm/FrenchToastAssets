@@ -1,4 +1,4 @@
-﻿	using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
@@ -10,6 +10,7 @@ public class CodeCanvasTrigger : MonoBehaviour {
     GameObject fileHandler;
     GameObject operatorUse;
     public TextAsset fileToLoad;
+	bool enemyDead = false;
 
     // Use this for initialization
     void Start () {
@@ -82,19 +83,31 @@ public class CodeCanvasTrigger : MonoBehaviour {
             {
                 codeCanvas.SetActive(false);
                 Time.timeScale = 1.0f;
+
                 //GameObject.FindWithTag("Player").GetComponent<Shoot>().shooting = true;
-                StartCoroutine(shootTime());
+				GameObject.FindWithTag ("Enemy").GetComponent<Collider2D> ().enabled = false;
+				StartCoroutine(shootTime());
+
+
             }
+
+
            
         }
     }
 
     IEnumerator shootTime()
     {
-        GameObject.FindWithTag("Player").GetComponent<Shoot>().shooting = true;
+		
+		GameObject.FindWithTag("Player").GetComponent<Shoot>().shooting = true;
         Debug.Log("player shooting");
-        yield return new WaitForSeconds(0.0f);
+		GameObject.FindWithTag ("Player").GetComponent<MegamanController> ().maxSpeed = 0.0f;
+		enemyDead = true; 
+		GameObject.FindWithTag ("Enemy").GetComponent<Animator> ().SetBool ("dead", enemyDead);
+		yield return new WaitForSeconds(1.25f);
+		Destroy(GameObject.FindWithTag ("Enemy"));
         GameObject.FindWithTag("Player").GetComponent<Shoot>().shooting = false;
+		GameObject.FindWithTag ("Player").GetComponent<MegamanController> ().maxSpeed = 100.0f;
         //GameObject.FindWithTag("Player").GetComponent<Animator>().
         Debug.Log("player not shooting");
    
