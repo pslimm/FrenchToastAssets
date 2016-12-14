@@ -101,6 +101,8 @@ GameObject:
   - 223: {fileID: 304967357}
   - 114: {fileID: 304967356}
   - 114: {fileID: 304967355}
+  - 114: {fileID: 304967360}
+  - 114: {fileID: 304967359}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -184,6 +186,70 @@ RectTransform:
   m_AnchoredPosition: {x: 425, y: 315.4}
   m_SizeDelta: {x: 834, y: 628}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &304967359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 304967354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 2.4
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 0}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 304967360}
+        m_MethodName: onGameOverClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &304967360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 304967354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a362d8d12d27f5a458c8bd07b45dfc94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueBox: {fileID: 0}
 --- !u!1 &561589174
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,7 +423,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1671809345}
   m_LocalRotation: {x: -0, y: -0, z: -0.0055775978, w: 0.99998444}
-  m_LocalPosition: {x: 0, y: 0, z: -165.10434}
+  m_LocalPosition: {x: 0, y: 0, z: -165.10437}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -365,8 +431,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11, y: -49}
-  m_SizeDelta: {x: 149, y: 53}
+  m_AnchoredPosition: {x: -1, y: -63}
+  m_SizeDelta: {x: 166.1, y: 62.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1671809347
 MonoBehaviour:
@@ -400,7 +466,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: With the power of operator overloads, Osvaldo got his turntable back!
+  m_Text: 'With the power of operator overloads, Osvaldo got his turntable back!
+
+    Click anywhere to exit game.'
 --- !u!222 &1671809348
 CanvasRenderer:
   m_ObjectHideFlags: 0

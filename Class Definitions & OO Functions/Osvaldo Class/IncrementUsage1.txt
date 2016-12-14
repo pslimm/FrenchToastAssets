@@ -1,0 +1,18 @@
+﻿h_Shoot(int s=0, int a=0) {shotsFired=s; ammoUsed=a;}
+h_Shoot Shoot::operator ++(int) {
+h_	Shoot temp(shotsFired, ammoUsed);
+h_	shotsFired++;
+h_	ammoUsed++;
+h_	return temp;
+h_}
+i_int main() { // Use operator++
+p_ // Initialize a new Shoot objecta
+p_ // Increment the shoot objectb
+i_	return 0;
+i_}
+c_Shoot temp;a0
+c_temp+;d0
+c_temp++;b1
+c_Player multiplier(4);d1
+c_osvaldo = osvaldo * multiplier;c2
+c_osvaldo = osvaldo(multiplier);d2

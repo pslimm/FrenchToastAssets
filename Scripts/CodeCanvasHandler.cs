@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class CodeCanvasTrigger : MonoBehaviour {
+public class CodeCanvasHandler : MonoBehaviour {
 
 	public static GameObject codeCanvas;
     GameObject fileHandler;
@@ -23,12 +23,10 @@ public class CodeCanvasTrigger : MonoBehaviour {
         fileHandler.GetComponent<FileHandler>().runFileHandler();
 
         codeCanvas.SetActive (false);
-        // operatorUse.SetActive(false);
     }
 	
 	// Update is called once per frame
 	void Update () {
-		//Debug.Log (codeCanvas.layer.ToString ());
 	}
 
 	void OnTriggerEnter2D(Collider2D osvaldo) {
@@ -42,11 +40,9 @@ public class CodeCanvasTrigger : MonoBehaviour {
 
     public void onCheckClick()
     {
-
         bool correct = true;
         // Check answers
         List<GameObject> slots = fileHandler.GetComponent<FileHandler>().slots;
-
         foreach (GameObject slot in slots)
         {
             try
@@ -72,27 +68,20 @@ public class CodeCanvasTrigger : MonoBehaviour {
         if (correct)
         {
             // If tutorial
-            if (fileHandler.GetComponent<FileHandler>().file.name == "Addition" || fileHandler.GetComponent<FileHandler>().file.name == "Multiplication")
+            if (fileHandler.GetComponent<FileHandler>().file.name == "Addition" || fileHandler.GetComponent<FileHandler>().file.name == "Multiplication" || fileHandler.GetComponent<FileHandler>().file.name == "AdditionUsage1" || fileHandler.GetComponent<FileHandler>().file.name == "MultiplicationUsage1")
             {
                 codeCanvas.SetActive(false);
                 Time.timeScale = 1.0f;
                 GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 7000.0f));
             }
 
-            if (fileHandler.GetComponent<FileHandler>().file.name == "Increment")
+            if (fileHandler.GetComponent<FileHandler>().file.name == "Increment" || fileHandler.GetComponent<FileHandler>().file.name == "IncrementUsage1")
             {
                 codeCanvas.SetActive(false);
                 Time.timeScale = 1.0f;
-
-                //GameObject.FindWithTag("Player").GetComponent<Shoot>().shooting = true;
 				GameObject.FindWithTag ("Enemy").GetComponent<Collider2D> ().enabled = false;
 				StartCoroutine(shootTime());
-
-
             }
-
-
-           
         }
     }
 

@@ -1,0 +1,18 @@
+h_Player(int jh=1, int jd=1){jumpHeight=jh; jumpDistance=jd;}
+h_Player Player::operator+ (Player adder) {
+h_	Player newStats;
+h_	newStats.jumpHeight = jumpHeight + adder.jumpHeight;
+h_	return newStats;
+h_}
+i_int main() { // Use operator+
+p_ // Initialize the playera
+p_ // Initialize an adderb
+p_ // Add the player and adder c
+i_	return 0;
+i_}
+c_Player osvaldo;a0
+c_osvaldo;d0
+c_Player adder(3,2);b1
+c_Player adder;d1
+c_osvaldo = osvaldo + adder;c2
+c_osvaldo = osvaldo ++ adder;d2

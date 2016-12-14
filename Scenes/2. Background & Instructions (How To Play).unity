@@ -159,9 +159,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Mad Ozwald has stolen Osvaldo's turntable! Osvaldo must chase Ozwald down
     before he gets away. You must use the power of Operator Overloading to catch Ozwald!
-    Be careful, you only have a limited amount of chances to get him. Pay attention
-    to the hints whenever you get stuck on an operator overload. \n\nClick anywhere
-    to continue."
+    \n\nClick anywhere to continue."
 --- !u!222 &31951689
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -1,0 +1,18 @@
+h_Player(int jh=1, int jd=1){jumpHeight=jh; jumpDistance=jd;}
+h_Player Player::operator* (Player multiplier) {
+h_	Player newStats;
+h_	newStats.jumpHeight = jumpHeight * multiplier.jumpHeight;
+h_	return newStats;
+h_}
+i_int main() { // Use operator*
+p_ // Initialize the playera
+p_ // Initialize a multiplierb
+p_ // Multiply the player and multiplierc
+i_	return 0;
+i_}
+c_Player osvaldo;a0
+c_osvaldo;d0
+c_Player multiplier(3,2);b1
+c_Player multiplier(4);d1
+c_osvaldo = osvaldo * multiplier;c2
+c_osvaldo = osvaldo(multiplier);d2

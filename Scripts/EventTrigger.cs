@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ShootTrigger : MonoBehaviour {
+public class EventTrigger : MonoBehaviour {
 
     GameObject fileHandler;
     public TextAsset fileToRead;
@@ -20,12 +20,11 @@ public class ShootTrigger : MonoBehaviour {
     {
         if (osvaldo.gameObject.tag == "Player")
         {
-            Debug.Log("Entering shoot trigger");
             osvaldo.gameObject.GetComponent<MegamanController>().jumpForce = 0.0f;
             Time.timeScale = 0.0f;
             fileHandler.GetComponent<FileHandler>().file = fileToRead;
             fileHandler.GetComponent<FileHandler>().runFileHandler();
-            CodeCanvasTrigger.codeCanvas.SetActive(true);
+            CodeCanvasHandler.codeCanvas.SetActive(true);
             this.gameObject.GetComponent<Collider2D>().enabled = false;
         }
     }
